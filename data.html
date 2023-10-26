@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalist</title>
+    <style>
+        body {
+            background-image: url("https://prjctr.online/assets/401/ext/61815776a3023__613927457b52a-1-main-large.jpeg");
+            font-size: 24px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+        .container {
+            margin-top: 200px;
+            margin-left: 100px;
+        }
+        input {
+            height: 20px;
+            padding: 5px;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="city">City:</label>
+        <input type="text" id="city" list="city-list">
+        <datalist id="city-list">
+            <option value="01">
+                Kyiv
+            </option>
+            <option value="02">
+                Lviv
+            </option>
+            <option value="03">
+                Odesa
+            </option>
+        </datalist>
+   
+       
+    </div>
+</body>
+</html>
